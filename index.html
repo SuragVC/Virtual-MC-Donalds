@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Virtual McDonalds</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="McDonalds.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div><img src="data:image/jpeg;base64,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"
+                alt="MC-Logo">
+        </div>
+        <div>
+            <h1>Welcome to McDonald's</h1>
+        </div>
+    </div>
+    <div id="main">
+        <div class="p-3 mb-2 bg-danger text-white">
+            <form>
+                <div>
+                    <input type="radio" id="sandwitch" name="ck">
+                    <label for="sandwitch">Chicken Sandwitch</label>
+                </div>
+                <div>
+                    <input type="radio" id="Burger" name="ck">
+                    <label for="Burger">Burger</label>
+                </div>
+                <div>
+                    <input type="radio" id="Egg" name="ck">
+                    <label for="Chicken_Roll">Egg Mc Muffin</label>
+                </div>
+                <div>
+                    <input type="radio" id="Crispy_Chicken" name="ck">
+                    <label for="Crispy_Chicken">Crispy Chicken</label>
+                </div>
+                <div>
+                    <input type="radio" id="chock" name="ck">
+                    <label for="chock">Chocolately Pretzel McFlurry</label>
+                </div>
+                <div id="submit_div">
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary" id="submit">PLACE THE ORDER</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div id="conformation"></div>
+        <div id="image_div"><img src="https://slideplayer.com/slide/13799744/85/images/21/Welcome+to+McDonalds.jpg" alt=""></div>
+    </div>
+    <div id="result"></div>
+</body>
+
+</html>
+<script src="McDonalds.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
